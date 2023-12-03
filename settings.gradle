@@ -1,0 +1,2 @@
+rootProject.name = "teren"
+include ':app'
