@@ -6,34 +6,111 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
-    <Button
-            android:text="novahra"
+    <TextView
+            android:id="@+id/textHeroName"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/newGameBtn"
-            tools:ignore="MissingConstraints"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" android:layout_marginTop="52dp"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/exitbtn"/>
+            android:layout_height="wrap_content"
+            android:text="Hero Name" tools:ignore="MissingConstraints"/>
+
+    <TextView
+            android:id="@+id/textScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score: 0" tools:ignore="MissingConstraints"/>
+
+
+    <TextView
+            android:id="@+id/textHealth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Health: 100%" tools:ignore="MissingConstraints"/>
+
+
+    <TextView
+            android:id="@+id/textAttack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attack: 10" tools:ignore="MissingConstraints"/>
+
+
+    <TextView
+            android:id="@+id/textDefense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Defense: 5" tools:ignore="MissingConstraints"/>
+
+
+    <TextView
+            android:id="@+id/textHealing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Healing: 2" tools:ignore="MissingConstraints"/>
+
+
+    <TextView
+            android:id="@+id/textKills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kills: 0" tools:ignore="MissingConstraints"/>
+
     <ImageView
-            android:layout_width="261dp"
-            android:layout_height="318dp" app:srcCompat="@drawable/ic_castle" android:id="@+id/imageView"
-            tools:layout_editor_absoluteY="4dp" tools:layout_editor_absoluteX="7dp"
-            tools:ignore="MissingConstraints,VectorDrawableCompat"/>
-    <Button
-            android:text="vysledky"
+            android:id="@+id/imageNorthWest"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/resultb"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            app:layout_constraintStart_toStartOf="@+id/exitbtn" app:layout_constraintEnd_toEndOf="parent"
-            tools:ignore="MissingConstraints" app:layout_constraintHorizontal_bias="0.0"
-            android:layout_marginLeft="189dp" android:layout_marginStart="189dp"
-            app:layout_constraintBottom_toBottomOf="@+id/newGameBtn"/>
-    <Button
-            android:text="konec"
+            android:layout_height="wrap_content"
+            android:src="@drawable/northwest" tools:ignore="MissingConstraints"/>
+
+    <ImageView
+            android:id="@+id/imageNorth"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/exitbtn" tools:layout_editor_absoluteY="381dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            tools:ignore="MissingConstraints" style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_marginEnd="192dp" android:layout_marginRight="192dp"/>
+            android:layout_height="wrap_content"
+            android:src="@drawable/north" tools:ignore="MissingConstraints"/>
+
+
+    <ImageView
+            android:id="@+id/imageNorthEast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/northeast" tools:ignore="MissingConstraints"/>
+
+
+    <ImageView
+            android:id="@+id/imageWest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/west" tools:ignore="MissingConstraints"/>
+
+
+    <ImageView
+            android:id="@+id/imageCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/center" tools:ignore="MissingConstraints"/>
+
+    <ImageView
+            android:id="@+id/imageEast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/east" tools:ignore="MissingConstraints"/>
+
+
+    <ImageView
+            android:id="@+id/imageSouthWest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/southwest" tools:ignore="MissingConstraints"/>
+
+
+    <ImageView
+            android:id="@+id/imageSouth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/south" tools:ignore="MissingConstraints"/>
+
+
+    <ImageView
+            android:id="@+id/imageSouthEast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/southeast" tools:ignore="MissingConstraints"/>
 
 </android.support.constraint.ConstraintLayout>
